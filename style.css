@@ -1,0 +1,131 @@
+body {
+    background-color: #5c0e07;
+    color: #d2d2d2;
+    font-family: "Caveat", cursive;
+    text-align: center;
+    text-transform: none;
+}
+
+a {
+    text-decoration: none;  
+    color: #d2d2d2;
+}
+
+.button {
+    display: inline-block;           
+    padding: 10px 20px;              
+    border: 2px solid #d2d2d2;       
+    background-color: #5c0e07;       
+    color: #d2d2d2;                   
+    text-align: center;              
+    text-decoration: none;           
+    border-radius: 5px;             
+    font-size: 16px;                 
+    cursor: pointer;                
+    transition: background-color 0.3s ease;  
+}
+
+.button:hover {
+    background-color: #2980b9;       
+    border-color: #2980b9;           
+}
+
+.button-container {
+    position: fixed;     
+    top: 10px;           
+    right: 10px;         
+    display: flex;       
+    flex-direction: column;  
+    gap: 10px;           
+}
+
+/*.container {
+    position: absolute; 
+}*/
+
+.inspiration-page img {
+    display: block;
+    margin-left: 0;  
+    margin-right: auto;
+}
+
+.inspiration-page {
+    display: flex;          
+    justify-content: space-between; 
+    gap: 20px;             
+    flex-wrap: wrap;        
+}
+
+.photo {
+    flex: 1 1 30%;          
+    text-align: center;     
+}
+
+.photo img {
+    width: 100%;             
+    height: auto;            
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px;
+}
+
+.image-box {
+    flex: 1 1 calc(20% - 20px); 
+    text-align: center;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.container img {
+    margin-left: 50px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.text-box {
+    font-size: medium; 
+    margin-right: 150px;
+}
+
+.gif {
+    display: inline-block; 
+    position: fixed;   
+    display: flex;            
+    padding: 0;  
+    top: -30%;           
+    right: auto;                 
+}
+
+
+
+/*.gif {
+    top: 0;            
+    left: 0;           
+    width: 20px;      
+    height: auto;      
+    margin: 0;         
+    margin-left: 450px;
+}/*
+
+
+
+
+/*
+dark red: 5c0e07
+navy blue: 45547d
+grey: d2d2d2
+/*
